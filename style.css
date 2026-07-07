@@ -7,6 +7,7 @@ body {
     margin: 0;;
 }
 
+/*** header ***/
 .header-section {
     height: 72px;
     background: #1F2937;
@@ -29,3 +30,34 @@ body {
     display: flex;
     gap: 32px;
 }
+
+/*** hero ***/
+.hero-section {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    width: 1200px;
+    display: flex;
+}
+
+.hero-content-left,
+.hero-content-right {
+    width: 50%;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
