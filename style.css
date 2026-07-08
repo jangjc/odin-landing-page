@@ -155,3 +155,19 @@ body {
 .cta-description {
     color: #F9FAF8;
 }
+
+/*** footer ***/
+.footer-section {
+    height: 72px;
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
