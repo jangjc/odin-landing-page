@@ -37,6 +37,7 @@ body {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+    padding: 32px 0;
 }
 
 .hero-content {
@@ -78,5 +79,34 @@ body {
 }
 
 .hero-content img {
+    max-width: 100%;
+}
+
+/*** info ***/
+.info-section {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.info-content {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.info-content img {
     max-width: 100%;
 }
