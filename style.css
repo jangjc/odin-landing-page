@@ -134,3 +134,24 @@ body {
 .quote-by {
     align-self: flex-end;
 }
+
+/*** cta ***/
+.cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.cta-content {
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 32px 100px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-title,
+.cta-description {
+    color: #F9FAF8;
+}
