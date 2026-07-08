@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    border: 0.5px solid red;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 .header-content {
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
 }
@@ -40,8 +40,9 @@ body {
 }
 
 .hero-content {
-    width: 1200px;
+    width: 1000px;
     display: flex;
+    gap: 32px;
 }
 
 .hero-content-left,
@@ -49,15 +50,33 @@ body {
     width: 50%;
 }
 
+/* .hero-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} */
+
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 8px;
 }
 
+.hero-content button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
 
+.hero-content img {
+    max-width: 100%;
+}
