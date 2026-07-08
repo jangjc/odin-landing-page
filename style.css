@@ -110,3 +110,27 @@ body {
 .info-content img {
     max-width: 100%;
 }
+
+/*** quote ***/
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+    background: #E5E7EB;
+}
+
+.quote-content {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-by {
+    align-self: flex-end;
+}
